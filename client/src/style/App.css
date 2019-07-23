@@ -1,0 +1,127 @@
+.islandContainer {
+  height: auto;
+  min-height: 160.875px;
+  width: 297.984px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservationHeader {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.calendarIconHeader {
+  margin-left: 10px;
+}
+
+.header {
+  margin-left: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 15px;
+}
+
+.timePartySizeContainer {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdownIcon {
+  margin-top: 5px;
+  margin-left: 53px;
+  position: absolute;
+  color: #444;
+}
+
+.timePicker {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 133px;
+  height: 25px;
+}
+
+.selectWithoutStyle {
+  z-index: 1;
+  background-color: transparent;
+  text-align-last: left;
+  padding-left: 35px;
+  cursor: pointer;
+  display: block;
+  color: #444;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  font-size: 12px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.clockIcon {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: -50px;
+  size: 50;
+  color: #444;
+}
+
+.partySizeIcon {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: -50px;
+  size: 50;
+  color: #444;
+}
+
+.partySizePicker {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 133px;
+  height: 25px;
+}
+
+.reserveButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.reserveButton {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #41A700;
+}
+
+.spotLeftMessage {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #444;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom:5px;
+}

@@ -1,0 +1,42 @@
+.datePicker {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  height: 25px;
+  font-size: 14px;
+}
+
+.calendarIconPicker {
+  color: #444;
+  size: 3px;
+  margin-left: 10px;
+}
+
+.dateValue {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #444;
+  margin-left: 10px;
+  font-size: 14;
+}
+
+.dropdownIcon {
+  color: #444;
+  margin-left: 258px;
+  position: absolute;
+}
+
+.calendar {
+  border-collapse: collapse;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  position: absolute;
+  margin-left: 10px;
+  background-color: white;
+  width: 278px;
+  height: 250px;
+  z-index: 2;
+}

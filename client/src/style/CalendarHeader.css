@@ -1,0 +1,25 @@
+.monthYear {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  height: 42px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.leftArrow {
+  cursor: pointer;
+  text-align: center;
+  height: 42px;
+}
+
+.rightArrow {
+  cursor: pointer;
+  text-align: center;
+  height: 42px;
+}
+
+.weekdays {
+  color: #D32323;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
